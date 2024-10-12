@@ -1,79 +1,86 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Inter IIT Hackathon Project
 
-# Getting Started
+## Project Name: MetaMask Integration for Enhanced Crypto Transactions
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### Problem Statement
+Develop a solution to integrate MetaMask wallet functionality into a mobile application, enabling secure and user-friendly cryptocurrency transactions for everyday users.
 
-## Step 1: Start the Metro Server
+### Project Description
+Our project aims to create a seamless integration of MetaMask wallet into a React Native mobile application. This integration will allow users to manage their cryptocurrency assets, perform transactions, and interact with decentralized applications (dApps) directly from their mobile devices. By bridging the gap between traditional mobile apps and blockchain technology, we're making crypto transactions more accessible and user-friendly for the average consumer.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Team Members
+- Bishwa Thakur - Team Lead(Application Developer, Backend Developer)
+- Manan Rohria - Product Manager
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Technologies Used
+- React Native
+- MetaMask SDK
+- Ethereum Blockchain
 
-```bash
-# using npm
-npm start
+### Features
+- Secure MetaMask wallet integration
+- User-friendly interface for managing crypto assets
+- Seamless transaction processing
+- Support for multiple cryptocurrencies
+- Integration with popular dApps
+- Biometric authentication for enhanced security
 
-# OR using Yarn
-yarn start
-```
+### Installation
 
-## Step 2: Start your Application
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-team/metamask-mobile-integration.git
+   ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+2. Install dependencies
+   ```bash
+   npm install
+   ```
 
-### For Android
+3. Set up environment variables
+   ```bash
+   cp .env.example .env
+   ```
+   Edit the `.env` file with your specific configuration
 
-```bash
-# using npm
-npm run android
+4. Start the Metro server
+   ```bash
+   npx react-native start
+   ```
 
-# OR using Yarn
-yarn android
-```
+5. Run the application
 
-### For iOS
+   For Android:
+   ```bash
+   npx react-native run-android
+   ```
 
-```bash
-# using npm
-npm run ios
+   For iOS:
+   ```bash
+   npx react-native run-ios
+   ```
 
-# OR using Yarn
-yarn ios
-```
+### Usage
+1. Launch the app on your mobile device or emulator
+2. Connect your existing MetaMask wallet or create a new one
+3. Use the intuitive interface to manage your assets and perform transactions
+4. Explore integrated dApps and enjoy secure, fast crypto operations
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Contributing
+We welcome contributions to improve our project. Please follow these steps:
+1. Fork the repository
+2. Create a new branch for your feature
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+### License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Step 3: Modifying your App
+### Acknowledgements
+- MetaMask for their excellent wallet and SDK
+- The React Native community for their invaluable resources and support
+- Inter IIT Tech Meet organizers for this opportunity
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+### Contact
+For any queries, please contact our team lead, Alice Johnson, at alice.johnson@email.com
